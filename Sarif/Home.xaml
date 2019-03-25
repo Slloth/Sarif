@@ -1,0 +1,18 @@
+﻿<Page x:Class="Sarif.Home"
+      xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+      xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+      xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+      xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+      xmlns:local="clr-namespace:Sarif"
+      mc:Ignorable="d" 
+      d:DesignHeight="626" d:DesignWidth="985"
+      Title="Home">
+    <Page.Background>
+        <SolidColorBrush Color="White" Opacity="0.25"/>
+    </Page.Background>
+
+    <Grid>
+        <Image HorizontalAlignment="Left" Height="304" Margin="364,71,0,0" VerticalAlignment="Top" Width="248" Source="/Img/sarif_logo.png"/>
+        <TextBlock HorizontalAlignment="Left" Margin="277,396,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Height="31" Width="423" FontSize="24" FontFamily="Georgia" Foreground="#FFCDCDCD"><Run Text="- LA VISION D'UN AUTRE AVENIR "/><Run Text="-"/></TextBlock>
+    </Grid>
+</Page>

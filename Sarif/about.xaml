@@ -1,0 +1,26 @@
+﻿<Window x:Class="Sarif.about"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:Sarif"
+        mc:Ignorable="d"
+        Title="À propos" Height="379.756" Width="558.537" ResizeMode="NoResize" WindowStartupLocation="CenterScreen">
+    <Window.Background>
+        <ImageBrush ImageSource="Img/crop.jpg"/>
+    </Window.Background>
+    <Grid>
+        <Rectangle HorizontalAlignment="Left" Height="187" Margin="10,153,0,0" Stroke="Black" VerticalAlignment="Top" Width="532">
+            <Rectangle.Fill>
+                <SolidColorBrush Color="White" Opacity="0.35"/>
+            </Rectangle.Fill>
+        </Rectangle>
+        <TextBlock TextWrapping="Wrap" VerticalAlignment="Top" Foreground="Gold" FontFamily="Georgia" FontSize="22" Margin="233,123,241,0" Width="78" HorizontalAlignment="Center"><Run Text=" "/><Run Text="Crédit"/></TextBlock>
+        <TextBlock HorizontalAlignment="Center" TextWrapping="Wrap" Text="Développé par :" VerticalAlignment="Top" Foreground="White" FontFamily="Georgia" FontSize="22" Margin="10,37,379,0" Width="163"/>
+        <TextBlock HorizontalAlignment="Center" TextWrapping="Wrap" VerticalAlignment="Top" Foreground="#FFFED700" FontFamily="/Sarif;component/Fonts/#Denton" FontSize="24" Margin="173,37,166,0" Width="213"><Run Text=" "/><Run Text="Isaac "/><Run Text="  "/><Run Text="B."/><LineBreak/><Run Text=" "/><Run Text="Noah "/><Run Text="  "/><Run Text=" "/><Run Text="Fiquet"/></TextBlock>
+        <Image HorizontalAlignment="Left" Height="187" Margin="76,153,0,0" VerticalAlignment="Top" Width="153" Source="/Img/manu_logo.png"/>
+        <Image HorizontalAlignment="Left" Height="35" Margin="243,227,0,0" VerticalAlignment="Top" Width="284" Source="/Img/square_enix_logo.png"/>
+        <TextBlock HorizontalAlignment="Left" Margin="321,39,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Foreground="White" FontSize="20" Height="26" Width="130" FontFamily="/Sarif;component/Fonts/#Denton" Text="(Lead Dev)"/>
+        <TextBlock HorizontalAlignment="Left" Margin="385,66,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Foreground="White" FontSize="20" Height="26" Width="130" FontFamily="/Sarif;component/Fonts/#Denton" Text="(Dev)"/>
+    </Grid>
+</Window>

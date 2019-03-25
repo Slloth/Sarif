@@ -1,0 +1,65 @@
+﻿<Window x:Class="Sarif.AlterHome"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:Sarif"
+        xmlns:gif="http://wpfanimatedgif.codeplex.com"
+        mc:Ignorable="d"
+        Title="Sarif Industries : Desktop Shop AlterHome" FontFamily="/fonts/#Denton" Height="655.2" Width="926.039" WindowStartupLocation="CenterScreen" ResizeMode="NoResize">
+    <Grid>
+        <Image HorizontalAlignment="Left" Height="626" VerticalAlignment="Top" Width="625" gif:ImageBehavior.RepeatBehavior="0x" gif:ImageBehavior.AnimatedSource="Img/home_background.gif" Margin="294,0,0,-0.4"/>
+        <Rectangle HorizontalAlignment="Left" Height="228" Stroke="Black" VerticalAlignment="Top" Width="294">
+            <Rectangle.Fill>
+                <LinearGradientBrush EndPoint="0.5,1" MappingMode="RelativeToBoundingBox" StartPoint="0.5,0">
+                    <GradientStop Color="Black"/>
+                    <GradientStop Color="#FFFFF197" Offset="1"/>
+                </LinearGradientBrush>
+            </Rectangle.Fill>
+        </Rectangle>
+        <Rectangle Fill="#FF171717" HorizontalAlignment="Left" Height="398" Margin="0,228,0,-0.4" Stroke="Black" VerticalAlignment="Top" Width="294"/>
+        <Button Content="ACCUEIL" Height="35" HorizontalAlignment="Left" Margin="54,273,0,0" Name="Home" VerticalAlignment="Top" Width="173" Background="#FF525252" FontFamily="/Sarif;component/Fonts/#Denton" FontSize="24" BorderBrush="#FFFFD770" Foreground="Gold">
+            <Button.Triggers>
+                <EventTrigger RoutedEvent="Button.MouseLeave">
+                    <BeginStoryboard>
+                        <Storyboard>
+                            <ColorAnimation To="White" 
+                                    Storyboard.TargetProperty="(Button.Background).(SolidColorBrush.Color)" 
+                                    FillBehavior="Stop" 
+                                    Duration="0:0:1"/>
+                        </Storyboard>
+                    </BeginStoryboard>
+                </EventTrigger>
+            </Button.Triggers>
+        </Button>
+        <Button Content="SHOP" Height="35" HorizontalAlignment="Left" Margin="54,344,0,0" Name="Shop" VerticalAlignment="Top" Width="173" Background="#FF525252" FontFamily="/Sarif;component/Fonts/#Denton" FontSize="24" Foreground="Gold" BorderBrush="#FFFFD770">
+            <Button.Triggers>
+                <EventTrigger RoutedEvent="Button.MouseLeave">
+                    <BeginStoryboard>
+                        <Storyboard>
+                            <ColorAnimation To="White" 
+                                    Storyboard.TargetProperty="(Button.Background).(SolidColorBrush.Color)" 
+                                    FillBehavior="Stop" 
+                                    Duration="0:0:1"/>
+                        </Storyboard>
+                    </BeginStoryboard>
+                </EventTrigger>
+            </Button.Triggers>
+        </Button>
+        <Button Content="A  PROPOS" Height="35" HorizontalAlignment="Left" Margin="45,575,0,0" Name="Dunno" VerticalAlignment="Top" Width="192" Background="#FF525252" FontFamily="/Sarif;component/Fonts/#Denton" FontSize="24" BorderBrush="#FFFFD770" Foreground="Gold">
+            <Button.Triggers>
+                <EventTrigger RoutedEvent="Button.MouseLeave">
+                    <BeginStoryboard>
+                        <Storyboard>
+                            <ColorAnimation To="LightGray" 
+                                    Storyboard.TargetProperty="(Button.Background).(SolidColorBrush.Color)" 
+                                    FillBehavior="Stop" 
+                                    Duration="0:0:1"/>
+                        </Storyboard>
+                    </BeginStoryboard>
+                </EventTrigger>
+            </Button.Triggers>
+        </Button>
+        <Image HorizontalAlignment="Left" Height="223" VerticalAlignment="Top" Width="196" Source="/Img/sarif_logo.png" Margin="45,0,0,0"/>
+    </Grid>
+</Window>

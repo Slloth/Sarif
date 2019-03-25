@@ -1,0 +1,47 @@
+//////////////////////////
+// INFO PRODUIT DB SARIF//
+//////////////////////////
+
+.: Info Link :.
+
+Déscriptif : Prothese retinienne Eye-Know avec interphace graphique.
+N° Série : E5784_AC43
+QUANTITÉ : 50
+PRIX : 8000
+
+
+/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/
+
+.: Bras Cybernetique :.
+
+Déscriptif : Bras menacique de remplacement.
+N° Série : B5730_AC82
+QUANTITÉ : 30
+PRIX : 30000
+
+/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/
+
+.: C.A.S.I.E :.
+
+Déscriptif : Implant cranien permettant l'analyse comprtemental.
+N° Série : C5730_AC82
+QUANTITÉ : 30
+PRIX : 30000
+
+/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/
+
+.: Jambe Cybernetique :.
+
+Déscriptif : Jambe mecanique de remplacement.
+N° Série : J5136_AC52
+QUANTITÉ : 80
+PRIX : 45000
+
+/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/
+
+.: Jambe Cybernetique :.
+
+Déscriptif : Main mecanique de remplacement.
+N° Série : M5183_AC82
+QUANTITÉ : 200
+PRIX : 15000
